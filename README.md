@@ -2,8 +2,9 @@
  
  ## Team Members
 
- @neilbaner : Neil Banerjee
- @yAOwzers : Neo Yao Jie, Joel
+ [@neilbaner](https://github.com/neilbaner) : Neil Banerjee
+
+ [@yAOwzers](https://github.com/yAOwzers) : Neo Yao Jie, Joel
 
  ## Proposed Level of Acheivement 
 
