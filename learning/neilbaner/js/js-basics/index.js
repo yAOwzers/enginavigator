@@ -11,3 +11,8 @@ console.log(name);
 // names are case sensitive
 let firstName = "Neil";
 let lastName = "Banerjee";
+
+const interestRate = 0.3;
+interestRate = 1;
+
+console.log(interestRate);
