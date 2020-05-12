@@ -1,18 +1,6 @@
-// First JS code
-console.log("Hello World");
+let name = "Neil" // String literal
+let age = 30; // Number literal
+let isApproved = true; // Boolean literal
+let firstName = undefined;
+let lastName = null; // when you want to explicitly create the value to null
 
-// variables
-let name = "Neil";
-console.log(name);
-// names cannot be reserved keywords: let, if, else, var etc. 
-// names should be meaningful, not a, b, a1, x, etc. 
-// names cannot start with a number
-// names cannot contain spaces or hyphens
-// names are case sensitive
-let firstName = "Neil";
-let lastName = "Banerjee";
-
-const interestRate = 0.3;
-interestRate = 1;
-
-console.log(interestRate);
