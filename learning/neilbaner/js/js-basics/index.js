@@ -1,6 +1,11 @@
-let name = "Neil" // String literal
-let age = 30; // Number literal
-let isApproved = true; // Boolean literal
-let firstName = undefined;
-let lastName = null; // when you want to explicitly create the value to null
 
+let person = {
+    name: "Neil",
+    age: 20
+};
+
+console.log(person)
+
+person.name = "Lien";
+person['name'] = "eejrenab"; //when you don't know the name of the target property
+console.log(person)
