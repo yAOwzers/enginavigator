@@ -1,11 +1,7 @@
-
-let person = {
-    name: "Neil",
-    age: 20
-};
-
-console.log(person)
-
-person.name = "Lien";
-person['name'] = "eejrenab"; //when you don't know the name of the target property
-console.log(person)
+let selectedColours = ["red", "blue"];
+console.log(selectedColours);
+selectedColours[2] = "green"
+console.log(selectedColours);
+selectedColours[3] = 1;
+console.log(selectedColours)
+console.log(selectedColours.length);
