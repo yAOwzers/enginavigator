@@ -5,5 +5,5 @@ function log(message){
     console.log(message);
 }
 
-module.exports.log = log;
+module.exports = log;
 // module.exports.endPoint = url; // implementation detail, no need for other modules to see this
