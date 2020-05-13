@@ -1,6 +1,15 @@
-function sayHello(name) {
-    console.log('Hello ' + name);
-}
+// console.log(); // console is global object, available in any file
 
-//sayHello('Neil')
-//console.log(window) // no window or document object in node
+// setTimeout();// call a function after a delay
+// clearTimeout();
+
+// setInterval(); // call a function repeatedly after a delay
+// clearInterval(); // stop calling the function
+
+// // window.console.log(); // no window object in node, but in browser, everything is a part of 
+
+// global.console.log(); // everything is under the global object in node
+
+var message = ''; // this is not global, only part of this file
+
+console.log(global.message);
