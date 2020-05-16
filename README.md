@@ -20,7 +20,7 @@
 
  ### Who?
 
- // details on the target audience for our product
+* NUS Engineering students like ourselves who constantly get lost in the labyrinth that is the Faculty of Engineering
 
  ### Why?
 
@@ -36,7 +36,11 @@
 
  ### How?
 
- // details on how the features are implemented technically
+* Front end web client coded with React
+
+* Back end server coded with Node.js + Express
+
+* Database powered by MongoDB
 
  ### When?
 
