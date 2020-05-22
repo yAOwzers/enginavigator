@@ -16,7 +16,7 @@ app.get('/api/courses/:id', (req, res) => {
     
     //By convention, return a conventions of RESTFUL APIs
     if (!course) 
-        res.status(404).send('The course with the given id was not found.');
+        return res.status(404).send('The course with the given id was not found.');
     
     res.send(course);
 });
