@@ -15,13 +15,13 @@ class Graph{
     }
     printEdges(){
         console.log("Edges:")
-        for(let edge in this.edges){
+        for(let edge of this.edges){
             console.log("Edge " + edge.id + " starts from " + edge.start + " and ends at " + edge.end + ". ");
         }
     }
     printNodes(){
         console.log("Nodes:")
-        for(let node in this.nodes){
+        for(let node of this.nodes){
             console.log("Node " + node.id + ", " + node.name + ", on floor " + node.floor + " of block " + node.block + ". ");
         }
     }
@@ -36,7 +36,7 @@ class Edge{
         this.stairs = stairs;
     }
     printEdge(){
-        
+        console.log("Edge " + this.id + " starts from " + this.start + " and ends at " + this.end + ". ");
     }
 }
 
@@ -47,10 +47,13 @@ class Node{
         this.block = block;
         this.name = name;
     }
+    printNode(){
+        console.log("Node " + this.id + ", " + this.name + ", on floor " + this.floor + " of block " + this.block + ". ");
+    }
 }
 
 let edge1 = new Edge(1, 1, 2, 5, 0);
-let edge2 = new Edge(2, 1, 3, 3, 0);
+let edge2 = new Edge(2, 2, 1, 3, 0);
 let node1 = new Node(1, '1', 'E1', 'E1-01-01');
 let node2 = new Node(2, '1', 'E1', 'E1-01-02');
 
