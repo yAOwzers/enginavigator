@@ -27,3 +27,5 @@ class Nurse extends HospitalEmployee {
     return this._certifications;
   }
 }
+
+const nurseOlynyk = new Nurse('Olynyk', ['Trauma', 'Pediatrics']); //possible to enter an array as an argument
