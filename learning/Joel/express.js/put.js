@@ -3,7 +3,7 @@ app.put('/api/courses/:id', (req, res) => {
     //If not existing, return 404
     const course = courses.find(c => c.id === parseInt(req.params.id));
     if (!course) 
-        res.status(404).send('The course with the given id was not found.');
+        return res.status(404).send('The course with the given id was not found.');
 
     //Validate
     //If invalid, return 400 - bad request
@@ -12,8 +12,7 @@ app.put('/api/courses/:id', (req, res) => {
     const {error} = validateCourse(req.body); //result.error
     
     if(error) {
-        res.status(400).send(error.details[0].message);
-        return;
+        return res.status(400).send(error.details[0].message);
     }
 
     //Update course
