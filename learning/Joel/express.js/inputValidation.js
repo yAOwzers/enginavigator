@@ -14,7 +14,7 @@ app.post('/api/courses', (req,res) => {
     const result = Joi.validate(req.body, schema); //returns an object
 
     //we should'nt always trust every request sent by the user
-if(result.error) { 
+    if(result.error) { 
         // 400 bad request
         res.status(400).send(result.error.details[0].message); //make it more specific for the user
         //you can differentiate the error messages (name mus tbe written properly)
