@@ -23,3 +23,6 @@ class Counter extends Component {
       </div>
     );
   }
+
+//alternatively, the below code is valid as well
+//<span style={{ fontSize: 30 }} className="badge badge-primary m-2">
