@@ -1,0 +1,4 @@
+  handleIncrement = () => {
+    // console.log("Increment Clicked", this); //always referencing the counter object
+    this.setState({ count: this.state.count + 1 }); //updating the state, figure out what part of the state is changed, bring the DOM insync with the vitual DOM
+  };
