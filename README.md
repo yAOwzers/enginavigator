@@ -1,4 +1,6 @@
-# enginavigator
+<img src="https://imgur.com/uL51Lp8.png" width=200>
+
+# EngiNavigator
  
  ## Team Members
 
